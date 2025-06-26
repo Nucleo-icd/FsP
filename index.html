@@ -1,21 +1,23 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Login - Anatomia Patológica</title>
+  <title>Login - Fisioterapia</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h2>Login - Anatomia Patológica</h2>
+    <h2>Login - Fisioterapia</h2>
     <form id="login-form">
       <input id="username" type="text" placeholder="Usuário">
       <input id="password" type="password" placeholder="Senha">
-      <button type="submit">Entrar</button>
+      <button type="submit" id="login-button">Entrar</button>
       <p id="error-message">Usuário ou senha estão incorretos.</p>
     </form>
   </div>
+
+  <!-- link invisível para redirecionamento -->
+  <a id="redirectLink" href="#" style="display: none;" target="_self">Redirecionar</a>
 
   <script src="script.js"></script>
 </body>
